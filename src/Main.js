@@ -26,7 +26,7 @@ function Main() {
   };
   
   if (state.todo.isLoading  ) {
-    return <h1>Loading....</h1>;
+    return <h1>Loading.... Please Wait</h1>;
   }
   if (!state.todo.data) { 
     return <h1>Loading...</h1>; 
